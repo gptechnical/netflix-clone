@@ -309,7 +309,7 @@ nav {
 
 .girl_img {
   width: 500px;
-  position: relative;
+  /* position: relative; */
  
 }
 
@@ -349,11 +349,12 @@ nav {
   margin-top: 240px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .icon_download {
   position: absolute;
-  left: 140px;
+  right: -72px;
   width: 50px;
 }
 
