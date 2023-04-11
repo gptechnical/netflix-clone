@@ -368,16 +368,6 @@ nav {
   .text_div1 {
     padding: 100px 70px;
   }
-}
-
-
-@media only screen and (max-width: 1024px) {
-  .text_div1 {
-    padding: 80px 10px;
-  }
-}
-
-@media only screen and (max-width: 980px) {
   .girl_img {
     width: 400px;
   }
@@ -398,8 +388,15 @@ nav {
   width: 40px;
   height: 46px;
 }
-
 }
+
+
+@media only screen and (max-width: 1024px) {
+  .text_div1 {
+    padding: 80px 10px;
+  }
+}
+
 
 @media only screen and (max-width: 960px) {
   .text_div1 {
