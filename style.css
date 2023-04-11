@@ -323,7 +323,7 @@ nav {
   width: 280px;
   height: 90px;
   position: absolute;
-  margin-top: 240px;
+  margin-top: 235px;
   border-radius: 10px;
   background-color: #000;
 }
@@ -346,11 +346,12 @@ nav {
 .btn_download {
   position: absolute;
   margin-top: 240px;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon_download {
   position: absolute;
-  margin-top: -45px;
   left: 140px;
   width: 50px;
 }
@@ -368,27 +369,7 @@ nav {
     padding: 100px 70px;
   }
 }
-@media only screen and (max-width: 1200px) {
-  .text_div1 {
-    padding: 100px 70px;
-  }
-  .text_border {
-    height: 67px;
-    margin-top: 196px;
-  }
 
-  .btn_download {
-    margin-top: 198px;
-  }
-  .text_device {
-    margin-top: -51px;
-    width: 246px;
-  }
-.text_book {
-  width: 40px;
-  height: 46px;
-}
-}
 
 @media only screen and (max-width: 1024px) {
   .text_div1 {
@@ -396,7 +377,23 @@ nav {
   }
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 960px) {
+  .text_div1 {
+    flex-direction: column-reverse;
+    padding: 80px 10px;
+  }
+  .head3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .paratwo {
+    text-align: center;
+    font-size: 18px;
+  }
+  .girl_img {
+    width: 400px;
+  }
+
   .text_border {
     height: 67px;
     margin-top: 196px;
@@ -404,7 +401,6 @@ nav {
 
   .btn_download {
     margin-top: 198px;
-   
   }
   .text_device {
     margin-top: -51px;
@@ -415,23 +411,6 @@ nav {
   height: 46px;
 }
 
-}
-@media only screen and (max-width: 960px) {
-  .text_div1 {
-    flex-direction: column-reverse;
-    padding: 80px 10px;
-  }
-
-  .head3 {
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .paratwo {
-    text-align: center;
-    font-size: 18px;
-
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -455,14 +434,12 @@ nav {
   }
 
   .text_border {
-    margin-left: -11px;
     height: 67px;
     margin-top: 196px;
   }
 
   .btn_download {
     margin-top: 198px;
-    margin-left: -17px;
   }
   .text_device {
     margin-top: -51px;
@@ -489,11 +466,9 @@ nav {
     width: 380px;
   }
   .text_border {
-    margin-left: -7px;
     margin-top: 183px;
   }
   .btn_download {
-    margin-left: -18px;
     margin-top: 180px;
   }
   .text_device {
