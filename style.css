@@ -359,10 +359,8 @@ nav {
   .text_div1 {
     padding: 100px 70px;
   }
-  .photo{
-    height: 70vh;
-  }
 }
+
 
 @media only screen and (max-width: 1024px) {
   .text_div1 {
@@ -686,12 +684,15 @@ input[type="radio"] {
 }
 
 /* navbar media */
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1098px) {
   .heading {
-    font-size: 45px;
+    font-size: 35px;
   }
-
+  .photo{
+    height: 70vh;
+  }
+}
+@media only screen and (max-width: 1024px) {
   .email_text {
     width: 40%;
   }
