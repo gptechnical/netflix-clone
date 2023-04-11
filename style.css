@@ -310,6 +310,8 @@ nav {
 .girl_img {
   width: 500px;
   position: relative;
+  /* margin-right: -24px;
+    margin-left: -37px; */
 }
 
 .text_device {
@@ -370,6 +372,9 @@ nav {
   }
   .girl_img {
     width: 400px;
+    margin-right: -24px;
+    margin-left: -37px;
+    
   }
 
   .text_border {
@@ -388,6 +393,7 @@ nav {
   width: 40px;
   height: 46px;
 }
+
 }
 
 
