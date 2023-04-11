@@ -364,9 +364,9 @@ nav {
 
 
 @media only screen and (max-width: 1240px) {
-  .text_div1 {
+  /* .text_div1 {
     padding: 100px 70px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1024px) {
