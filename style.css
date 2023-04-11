@@ -686,10 +686,10 @@ input[type="radio"] {
 /* navbar media */
 @media only screen and (max-width: 1098px) {
   .heading {
-    font-size: 35px;
+    font-size: 40px;
   }
   .photo{
-    height: 70vh;
+    height: 60vh;
   }
 }
 @media only screen and (max-width: 1024px) {
