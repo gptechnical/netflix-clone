@@ -345,18 +345,24 @@ nav {
 }
 
 .btn_download {
-  position: absolute;
+  /* position: absolute;
   margin-top: 240px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  position: absolute;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 86px;
 }
 
 .icon_download {
   position: absolute;
-  /* left: 135px; */
   margin-right: -210px;
   width: 50px;
+  margin-top: 244px;
+
 }
 
 .text_div1 {
@@ -456,12 +462,12 @@ nav {
   .girl_img {
     width: 380px;
   }
-  .text_border {
+  /* .text_border {
     margin-top: 183px;
   }
   .btn_download {
     margin-top: 180px;
-  }
+  } */
   .text_device {
     margin-top: -48px;
     width: 233px;
