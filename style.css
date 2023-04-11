@@ -363,7 +363,7 @@ nav {
 }
 
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1200px) {
   .text_div1 {
     padding: 100px 70px;
   }
@@ -422,7 +422,7 @@ nav {
 
   .btn_download {
     margin-top: 198px;
-    /* margin-left: -17px; */
+    margin-left: -17px;
   }
   .text_device {
     margin-top: -51px;
