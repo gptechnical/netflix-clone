@@ -354,7 +354,8 @@ nav {
 
 .icon_download {
   position: absolute;
-  left: 135px;
+  /* left: 135px; */
+  margin-right: -210px;
   width: 50px;
 }
 
