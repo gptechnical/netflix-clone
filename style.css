@@ -354,7 +354,7 @@ nav {
 
 .icon_download {
   position: absolute;
-  right: -72px;
+  left: 135px;
   width: 50px;
 }
 
@@ -373,7 +373,6 @@ nav {
 
 
 }
-
 
 @media only screen and (max-width: 1024px) {
   .text_div1 {
