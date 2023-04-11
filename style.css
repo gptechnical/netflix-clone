@@ -310,8 +310,7 @@ nav {
 .girl_img {
   width: 500px;
   position: relative;
-  /* margin-right: -24px;
-    margin-left: -37px; */
+ 
 }
 
 .text_device {
@@ -365,16 +364,13 @@ nav {
   padding: 100px 150px;
 }
 
-
+/* 
 @media only screen and (max-width: 1240px) {
   .text_div1 {
     padding: 100px 70px;
   }
   .girl_img {
-    width: 400px;
-    margin-right: -24px;
-    margin-left: -37px;
-    
+    width: 400px;   
   }
 
   .text_border {
@@ -394,7 +390,34 @@ nav {
   height: 46px;
 }
 
+} */
+
+/* @media only screen and (max-width: 1200px) {
+  .text_div1 {
+    padding: 100px 70px;
+  }
+  .girl_img {
+    width: 400px;   
+  }
+
+  .text_border {
+    height: 67px;
+    margin-top: 196px;
+  }
+
+  .btn_download {
+    margin-top: 198px;
+  }
+  .text_device {
+    margin-top: -51px;
+    width: 246px;
+  }
+.text_book {
+  width: 40px;
+  height: 46px;
 }
+
+} */
 
 
 @media only screen and (max-width: 1024px) {
